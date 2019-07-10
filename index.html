@@ -1,0 +1,28 @@
+<!DocType html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel=stylesheet href="bootstrap-4.0.0-dist/css/bootstrap.css"/>
+        <link rel=stylesheet href="bootstrap-4.0.0-dist/css/bootstrap-grid.css"/>
+        <link rel=stylesheet href="bootstrap-4.0.0-dist/css/bootstrap-reboot.css"/>
+        <link rel="stylesheet" href="style.css" />
+        <title>Registro de Automóviles</title>
+    </head>
+    <body>
+        <header>
+            <h1>Ingresar</h1>
+        </header>
+        <main>
+            <section class="login">
+                <form method="post" action="in.php" >
+                    <img src=""/><br />
+                    <label>Administrador</label><br />
+                    <input type=text name="user" id="user" title="Ingrese identificaci&oacute; de usuario" required autofocus placeholder="Usuario"/><br />
+                    <input type=password name="pass" placeholder="Contrase&ntilde;a" required title="Ingrese contraseña de usuario" minlength="5" /><br />
+                    <button name="in" type="submit" value="ingress" class="btn btn-primary">Ingresar</button>
+                    <button type="reset" class="btn btn-danger">Refresh</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

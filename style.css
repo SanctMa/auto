@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: dimgray;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+}
+
+header img {
+    width: 100%;
+}
+
+main {
+    margin: 0;
+    top: 5em;
+    position: relative;
+    padding-bottom: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.login {
+    text-align: center; 
+}
+
+.login form input {
+    height: auto;
+    background-color: #eee;
+    margin: 5px;
+    border-style: hidden;
+    text-align: center;
+}
+
+.login from input:checked {
+    background: #eee;
+}
+
+.present {
+    width: 100%;
+    height: auto;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.present h2, h3 {
+    color: #000;
+}
+
+.mainer {
+    position: fixed;
+    z-index: 5;
+    text-align: center;
+    float: left;
+    margin: 0;
+    width: 25%;
+    background: #aaa;
+    height: 400px;
+}
+
+.dow {
+    position: fixed;
+    top: 20%;
+}
+
+.second {
+    left: 12%;
+    position: fixed;
+    margin: 0;
+    width: 75%;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    color: #888;
+}
+
+.dg form input label {
+    width : 15em;
+    border-style: hidden;
+    margin-bottom: 1.5em;
+    box-sizing: border-box;
+}
+
+.succe {
+    justify-content: center;
+    text-align: center;
+    background: #aaa;
+}
+
+.succe img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    margin: 0;
+    width: 100%;
+    height: 7%;
+    background-color: dimgray;
+    bottom: 0;
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    color: #bbb;
+}
